@@ -1,0 +1,1 @@
+This is a readme file showing my thoughts before starting this project. This being my first project it fills extremely special and nervous at the same time. What if it's diffcult and I give up.... We'll see, I cannot give up!!
