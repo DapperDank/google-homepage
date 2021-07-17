@@ -1,0 +1,89 @@
+/* General Effects */
+* {
+  background-color: white;
+  color: #222;
+  text-decoration: none;
+}
+
+/* Header Links */
+.header-container {
+  display: flex;
+  flex-direction: space-between;
+  padding: 10px;
+  /* position: fixed; */
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.header-icons {
+  align-items: flex-end;
+}
+.header-right {
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.header-right > a {
+  padding-left: 25px;
+}
+.header-left > a {
+  padding-right: 25px;
+}
+.header-icons > a {
+  padding-right: 25px;
+}
+
+/* Main, Logo and Search Bar */
+.main-background-area {
+  background-color: inherit;
+  padding-left: 350px;
+  padding-top: 75px;
+  height: 100%;
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  /* min-height: 250px; */
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  /* padding-top: 75px; */
+}
+
+/* footer area and links */
+
+.footer-background {
+  background-color: inherit;
+  position: relative;
+  flex-direction: space-between;
+  padding-left: 350px;
+  margin-top: 150px;
+  padding-top: 150px;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.footer-right {
+  align-items: flex-start;
+  flex-grow: 1;
+}
+.footer-text-special {
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.footer-right > a {
+  padding-left: 25px;
+}
+.footer-left > a {
+  padding-right: 25px;
+}
