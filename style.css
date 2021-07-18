@@ -35,22 +35,20 @@
 }
 
 /* Main, Logo and Search Bar */
-.main-background-area {
+.main-background-area > input,
+form, button {
   background-color: inherit;
-  padding-left: 350px;
-  padding-top: 75px;
-  height: 100%;
-  display: flex;
-  min-height: 250px;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 
 .logo {
-  display: flex;
-  /* min-height: 250px; */
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 main img {
   /* padding-top: 75px; */
