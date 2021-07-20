@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -13,60 +15,64 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="app-links-left">
-        <a href="#" class="app-link-left">About</a>
-        <a href="#" class="app-link-left">Store</a>
-      </div>
-      <div class="app-links-right">
-        <a href="#" class="app-link-right">Gmail</a>
-        <a href="#" class="app-link-right">Images</a>
-      </div>
-      <div class="profile-icons-apps">
-        <a class="material-icons md-24" href="#apps">apps</a>
-      </div>
-      <div class="profile-icons-profile">
-        <a class="material-icons md-24" href="#profile">account_circle</a>
-      </div>
+      <nav>
+        <ul class="header-nav">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </ul>
+        <ul class="header-nav">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <img
+            class="header-img"
+            src="/google-homepage/images/outline_apps_black_24dp.png"
+            alt="googleApps"
+          />
+          <img
+            class="header-img"
+            src="/google-homepage/images/outline_account_circle_black_24dp.png"
+            alt="accountProfile"
+          />
+        </ul>
+      </nav>
     </header>
     <main>
-      <div class="main-logo">
-        <div class="logo-area">
-          <img
-            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-            alt="Google Logo"
-            class="logo"
-          />
-        </div>
+      <h1>
+        <img src="/google-homepage/images/googlelogo_color_272x92dp.png" alt="google-logo">
+        <!-- <span style="color: #4285f4;">G</span><span style="color: #db4437;">o</span><span style="color: #f4b400;">o</span><span style="color: #4285f4;">g</span><span style="color: #0f9d58;">l</span><span style="color: #db4437;">e</span> -->
+      </h1>
+      <div class="my-input-containter">
+        <img
+          src="/google-homepage/images/outline_search_black_24dp.png"
+          alt="mag-glass"
+        />
+        <input type="search" name="" id="searchbar" placeholder="" />
+        <img
+          src="/google-homepage/images/outline_mic_black_24dp.png"
+          alt="mic"
+        />
       </div>
-      <div class="search-bar-items">
-        <div class="search-icon">
-          <span id="searchIcon" class="material-icons">
-            search
-          </span>
-        </div>
-        <div class="search-box">
-          <input
-            type="search"
-            name="search-bar"
-            id="google-search-bar"
-            placeholder=""
-          />
-        </div>
-        <div id="microphone" class="microphone">
-          <span class="material-icons">
-            mic
-          </span>
-        </div>
+      <div class="my-button-container">
+        <button style="margin-top :30px">Google Search</button>
+        <button style="margin-top :30px">I'm Feeling Lucky</button>
       </div>
-      <!-- <div class="search-bar-btn">
-        <a href="#" class="google-search-button"></a>
-        <a href="#" class="feeling-lucky-button"></a>
-      </div> -->
     </main>
-    <footer></footer>
+    <footer>
+      <nav class="footer-nav-container">
+        <ul class="footer-left">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search Works</a>
+        </ul>
+        <ul class="footer-right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
